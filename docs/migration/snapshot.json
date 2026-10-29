@@ -10,10 +10,10 @@
     },
     {
       "path": ".github/workflows/jpmc-zelle-quick-pay.yml",
-      "sha256": "14c7c63337fcffcb04dfbc64ed8a6fce951246c4b923f09571d3996d673e1749",
+      "sha256": "46a0a49d895787377d49732f41e1b9460e5191703994c164ed31004c3adffed4",
       "source_sha256": "560d6d646410eda708bcb731da6a50a49b5c176ef38951e1a04671bfebb4ac2a",
       "mode": "100644",
-      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+      "change": "Standalone workflow paths, disabled publication gate, installed-package checks, and main-branch push validation."
     },
     {
       "path": "docs/brand/splitin-logo.png",

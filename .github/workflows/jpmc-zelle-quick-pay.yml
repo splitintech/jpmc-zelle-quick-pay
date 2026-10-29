@@ -4,6 +4,7 @@ on:
     paths:
       ["**", ".github/workflows/jpmc-zelle-quick-pay.yml"]
   push:
+    branches: [main]
     paths:
       ["**", ".github/workflows/jpmc-zelle-quick-pay.yml"]
     tags: ["jpmc-zelle-quick-pay-v*"]
