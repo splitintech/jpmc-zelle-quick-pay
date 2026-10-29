@@ -1,0 +1,416 @@
+[
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": ".github/workflows/dependency-review.yml",
+    "target": ".github/workflows/dependency-review.yml",
+    "git_blob": "1f67191185d41bb39459ca588fb38879eed93a2b",
+    "mode": "100644",
+    "sha256": "621b12e1d3b8c833e6336c068d305c79d844e2f1ad9d9109491fc8974080c46f"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": ".github/workflows/jpmc-zelle-quick-pay.yml",
+    "target": ".github/workflows/jpmc-zelle-quick-pay.yml",
+    "git_blob": "4d67e3f806c8b45c8556af953a2a9a94b174260b",
+    "mode": "100644",
+    "sha256": "560d6d646410eda708bcb731da6a50a49b5c176ef38951e1a04671bfebb4ac2a"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "docs/brand/splitin-logo.png",
+    "target": "docs/brand/splitin-logo.png",
+    "git_blob": "807558c4206517d878dfe932315bf738317141fe",
+    "mode": "100644",
+    "sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/.gitignore",
+    "target": ".gitignore",
+    "git_blob": "73c58aa5430992a5e5fd40c71158709ad5eb2f30",
+    "mode": "100644",
+    "sha256": "13b11e5e9d538de2f943b3195241f2100cc609ea2ad417fcb0e8547af5ec7b94"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/LICENSE",
+    "target": "LICENSE",
+    "git_blob": "c079cfa5ab82f80aff9bd928f85b7ff80892672c",
+    "mode": "100644",
+    "sha256": "e4808606c50b92107066d326e3bbf4301f23144e1fcfbb21df7589e91f9b7c67"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/README.md",
+    "target": "README.md",
+    "git_blob": "e45bada6b0edc0f37693e9cf4e0f8bf0e21f4716",
+    "mode": "100644",
+    "sha256": "d6c7352529f5d4befc20803892dd5ec975a363223d2225e28cf980d49531a2a4"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/compose.yaml",
+    "target": "compose.yaml",
+    "git_blob": "32b51a914624d34cccbf306f090bfea4d807eba3",
+    "mode": "100644",
+    "sha256": "06c490c77e1c12681ac9b0459812bb3d36f97835ae2c5d6e998a8edb8ada917f"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/docs/contracts.md",
+    "target": "docs/contracts.md",
+    "git_blob": "53c226a1d8ff739cf9b02cf649893bb902176e94",
+    "mode": "100644",
+    "sha256": "50812e205990442f411d81d6c56f47187dfa78d81907cb4d092bc209b9a98bb7"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/docs/operations.md",
+    "target": "docs/operations.md",
+    "git_blob": "04a10a6d404cf09af9ca07157b6336f069d657db",
+    "mode": "100644",
+    "sha256": "39b52b4099ab851a4fa375e7c4b73035dc624315364f09e207b350078cd980cb"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/docs/sources.md",
+    "target": "docs/sources.md",
+    "git_blob": "319ff5fe3a161116aa983ef56d07a1029f13f4f4",
+    "mode": "100644",
+    "sha256": "ca80016a6acb8ee70b81ebc1206414ee8703beb1be3593c896981f3933022d11"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/examples/demo/index.html",
+    "target": "examples/demo/index.html",
+    "git_blob": "72a6f812243b5c196fc75dece4894db613a6a861",
+    "mode": "100644",
+    "sha256": "ef20ed15b35c6a3041e2a66e8d64738106ef68dfd435d1c01e3c306dd711cd91"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/examples/demo/main.tsx",
+    "target": "examples/demo/main.tsx",
+    "git_blob": "456c3e252c6ea444957dd5b300828dffb9a0c231",
+    "mode": "100644",
+    "sha256": "0a930ef06dfd322135a9b3a5321208884e11305c5c4345d6c592fb86d6e35d5a"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/examples/demo/style.css",
+    "target": "examples/demo/style.css",
+    "git_blob": "67c599d34cbd18639a64309edb45ba413cb9d684",
+    "mode": "100644",
+    "sha256": "f18a8bf525831423dcc13b18ec74d053e382ad5414a0465ef6a42898507fc08a"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/examples/demo/vite.config.ts",
+    "target": "examples/demo/vite.config.ts",
+    "git_blob": "1df63cfc21ceb8526827a216a222d94f2642d950",
+    "mode": "100644",
+    "sha256": "44f4653b50a3a6bf1959b7cdd13fb9d51d7d5d653a96dc331fb241751f8064f3"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/examples/service/main.ts",
+    "target": "examples/service/main.ts",
+    "git_blob": "a32f80f341ebb107f3ef1516b84ea3f2b855f9c4",
+    "mode": "100644",
+    "sha256": "0ef47c0c5fc6c613a3b2b2c26ab4b4492c034f3a9f30e3fa241e918ef69ff0c6"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/examples/service/migrate.ts",
+    "target": "examples/service/migrate.ts",
+    "git_blob": "a81a2133bada42eddaef6007cabb301c3b447563",
+    "mode": "100644",
+    "sha256": "5d95d3e3f38a1de4153b3ab09d8f39de47d938be454c46b59e25fe43511ac6be"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/migrations/001_initial.sql",
+    "target": "migrations/001_initial.sql",
+    "git_blob": "e9a13cc9dddf9a7c5ab63d025ac52b64da1e9a59",
+    "mode": "100644",
+    "sha256": "8f5e81a628b838a6d18ecb9da20cebb853e4829b81d8033d3f6b3ad46523f5d6"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/migrations/002_active_sessions.sql",
+    "target": "migrations/002_active_sessions.sql",
+    "git_blob": "e549bcb19a7349143e86f636b6e58bc33f98fd57",
+    "mode": "100644",
+    "sha256": "bdf31c767795d1807cb0acad5cfb02d29c47d4f1e565f3a3acc6ddd19ccf7c76"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/package-lock.json",
+    "target": "package-lock.json",
+    "git_blob": "4f1e8bd86b723ccc41752842ae5032d522d0515c",
+    "mode": "100644",
+    "sha256": "02f7e20111ced6bc148876872c8c65fe411b69a713b8a5ed1b923e425c419249"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/package.json",
+    "target": "package.json",
+    "git_blob": "74a09dc97fc1d65bb37015cde6041c2124cbcd0b",
+    "mode": "100644",
+    "sha256": "2d36381492a2d02cc52d814362998f9036f568ddd5398f74203e62cf175cd046"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/scripts/browser.mjs",
+    "target": "scripts/browser.mjs",
+    "git_blob": "29f83dbaea14b34b493fa765bd649319dd35ace7",
+    "mode": "100644",
+    "sha256": "302c5ef1c592072b3032bf4c9a305eadfa7ca958c590c599aee4706462eaac6b"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/src/core/policy.ts",
+    "target": "src/core/policy.ts",
+    "git_blob": "2f30fdcd2ad0766bb82f65c892022b5bda6dab90",
+    "mode": "100644",
+    "sha256": "6adce132be8448e11ad33332bf258035305c4b7cfc6ed7a942ae932cb51c5f6f"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/src/core/types.ts",
+    "target": "src/core/types.ts",
+    "git_blob": "7d0037272e6125e9c6025b9aab4e634fe5f667a0",
+    "mode": "100644",
+    "sha256": "a37dd563b92e0e198e20dcffda43f67c97bc18510efd4ac86cc59ebebd30ffd3"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/src/index.ts",
+    "target": "src/index.ts",
+    "git_blob": "099fa9d7d0ded0f2a1cbb7346cf9d79710d09cba",
+    "mode": "100644",
+    "sha256": "c1b4113889db0f4231a085bab14923e9ff9bbcd8d742fad1e5f83cac8b4f2275"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/src/providers/jpmc.ts",
+    "target": "src/providers/jpmc.ts",
+    "git_blob": "e0d15389ab746f922630d3a876e39c2eac376c98",
+    "mode": "100644",
+    "sha256": "955b77b9c9219494aff5ec3b551896c397e6276c578573a64e5606bfdaead1cb"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/src/react/index.tsx",
+    "target": "src/react/index.tsx",
+    "git_blob": "32f3c3a123cdef606aa62fc63604437e87d28804",
+    "mode": "100644",
+    "sha256": "30331118fea4d66b5b3cbdbdea9404c1f4bd8e327d5bfcf907a7dfb616cc91f7"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/src/react/styles.css",
+    "target": "src/react/styles.css",
+    "git_blob": "ee1d9321afb35db1e879bf14ce2bf58313ffb79b",
+    "mode": "100644",
+    "sha256": "6f1ad69bba7d0cda8a825534d4bdc14fa6a6f89166efe32a0f34a7271b49cde6"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/src/server/contracts.ts",
+    "target": "src/server/contracts.ts",
+    "git_blob": "6d97788d72540606691d6609c5efd877c6a353a5",
+    "mode": "100644",
+    "sha256": "825875c73a0bcf8710be95227c3019c07e6b06aeb318839cc78acc3d8495988f"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/src/server/engine.ts",
+    "target": "src/server/engine.ts",
+    "git_blob": "e0b2009d6cb33af390301aa138ec8e84fddc2b61",
+    "mode": "100644",
+    "sha256": "c1c75b640b4d21265a8e8f7b00ddee2214d4596869debb781fd89a809ca540b4"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/src/server/http.ts",
+    "target": "src/server/http.ts",
+    "git_blob": "735ac9cfce9d4b9aef8469e23820b6f8b50453b0",
+    "mode": "100644",
+    "sha256": "c800bfaa1586a2064293e6fa8fa8a021b1a41e610e50b175bef4fd3fe7ff4bf6"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/src/server/index.ts",
+    "target": "src/server/index.ts",
+    "git_blob": "7d27917b5aeb1037c2e0ca8175b61fb4fee069bc",
+    "mode": "100644",
+    "sha256": "a10c0631f24b4dea4fe29552602b814de018338cba4c3b2514d60809225b4a2c"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/src/server/memory.ts",
+    "target": "src/server/memory.ts",
+    "git_blob": "0789c5b770e9a15ce7aaf02101db245ecfe3f534",
+    "mode": "100644",
+    "sha256": "23ae6d54eae7d6387426827f8e86ead3f1edee1f5c903d5e048b2c837d4e533c"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/src/server/postgres.ts",
+    "target": "src/server/postgres.ts",
+    "git_blob": "ca8e646dc98b4c0415bb4e4e3ea89e4349e97e84",
+    "mode": "100644",
+    "sha256": "72041adc068cc8d146559dda37e64855e5c3978c6ae8f653343c658b604f6a16"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/src/testing/index.ts",
+    "target": "src/testing/index.ts",
+    "git_blob": "a6f0fe5d1636d7efc370a6fe1ac1ae191e6911ac",
+    "mode": "100644",
+    "sha256": "fb154935ffaba09f7aca715317fc8e443d63b39369269b6207d2803c14f1de1c"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/tests/audit-regressions.test.ts",
+    "target": "tests/audit-regressions.test.ts",
+    "git_blob": "4dfac85a5337e6260f82014f985d88678c8eb558",
+    "mode": "100644",
+    "sha256": "6e81515113982646256b962862174141213a5785e0eec31c782bb9631a506bbd"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/tests/engine.test.ts",
+    "target": "tests/engine.test.ts",
+    "git_blob": "d1987951d787bb8b1ea8c15fc72cd389d5e57228",
+    "mode": "100644",
+    "sha256": "a52874a8a39a0c4b33747f682f277e734e342069d241a1ec9547664630f30d9c"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/tests/http.test.ts",
+    "target": "tests/http.test.ts",
+    "git_blob": "f502fd72894603c0bdf4a87b9d3489d30c132c0c",
+    "mode": "100644",
+    "sha256": "dd41c95793b8f10f1edb272b1c7fd0de425f43f8f948ded12c572b990d9af10b"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/tests/local-completion.test.ts",
+    "target": "tests/local-completion.test.ts",
+    "git_blob": "ca32aa261384505db102ce4abe99611cf69159a7",
+    "mode": "100644",
+    "sha256": "3d5a6c43b1f22a5f898c2df975596b6827c0e559decc98a32d8340ad3c33f8c2"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/tests/postgres.test.ts",
+    "target": "tests/postgres.test.ts",
+    "git_blob": "10460ee35cf31a046db8ec4ec796889dcffa1446",
+    "mode": "100644",
+    "sha256": "5e2178fb3e9d348e6fd154a059c38209741392272148f52d9768e82f13f1e15c"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/tests/react.test.tsx",
+    "target": "tests/react.test.tsx",
+    "git_blob": "59379cf846c23cb2b524654b70440eeba626d6ba",
+    "mode": "100644",
+    "sha256": "f0a54524ac5ee0ab6b6eb524fff191b602503d4344d6402aa233e036789b0f57"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/tests/recovery.test.ts",
+    "target": "tests/recovery.test.ts",
+    "git_blob": "ceb85aa91f7b3e21e7d708e8220c7129518f2057",
+    "mode": "100644",
+    "sha256": "cb297b2bc2a138542df3b9b368af91a38d2ad7522b8b0fbf93188be8ee2e5886"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/tsconfig.json",
+    "target": "tsconfig.json",
+    "git_blob": "35a5e19377f7263c3541c8b320c256de97e6a232",
+    "mode": "100644",
+    "sha256": "875b70f15edc4f94b600542203c0d13d354ce52d1ef2ddc8ea39044f11e09157"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/tsup.config.ts",
+    "target": "tsup.config.ts",
+    "git_blob": "98b4a92e4ca8547ebbd9691178bcce0db33b5bdc",
+    "mode": "100644",
+    "sha256": "31b4584218c508904af73bb7352b48b83e88c07d150697570ce526a7e7bdf135"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "jpmc-zelle-quick-pay/vitest.config.ts",
+    "target": "vitest.config.ts",
+    "git_blob": "be4fa93702f12895caac50a229359e5506586b20",
+    "mode": "100644",
+    "sha256": "60b94f092ecd5f91fd31b9eb2af2b0726da9ed3655ae2611a6c6a44c9efa6e22"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "scripts/assert-release-tag.mjs",
+    "target": "scripts/assert-release-tag.mjs",
+    "git_blob": "15d8bcd982dc7ede03be3d62179181aed1066b0f",
+    "mode": "100755",
+    "sha256": "c11eca6fe51e8e8e899262e19c8c6e7bab798a474241cc9f02ced9a9a01a7606"
+  },
+  {
+    "source_repository": "https://github.com/splitintech/open-internal-tools",
+    "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+    "source": "scripts/oidc-npm-publish.mjs",
+    "target": "scripts/oidc-npm-publish.mjs",
+    "git_blob": "dde682ea4b5c0119a057f1002e86f09614bf569f",
+    "mode": "100755",
+    "sha256": "5215d31833c6d52fe2d8f9f058ca0c530882037bc67d4c06e16119041057a5ad"
+  }
+]

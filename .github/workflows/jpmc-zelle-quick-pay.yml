@@ -2,17 +2,17 @@ name: jpmc-zelle-quick-pay
 on:
   pull_request:
     paths:
-      ["jpmc-zelle-quick-pay/**", ".github/workflows/jpmc-zelle-quick-pay.yml"]
+      ["**", ".github/workflows/jpmc-zelle-quick-pay.yml"]
   push:
     paths:
-      ["jpmc-zelle-quick-pay/**", ".github/workflows/jpmc-zelle-quick-pay.yml"]
+      ["**", ".github/workflows/jpmc-zelle-quick-pay.yml"]
     tags: ["jpmc-zelle-quick-pay-v*"]
   workflow_dispatch:
 permissions:
   contents: read
 defaults:
   run:
-    working-directory: jpmc-zelle-quick-pay
+    working-directory: .
 jobs:
   verify:
     runs-on: ubuntu-latest
@@ -34,7 +34,7 @@ jobs:
         with:
           node-version: 24
           cache: npm
-          cache-dependency-path: jpmc-zelle-quick-pay/package-lock.json
+          cache-dependency-path: package-lock.json
       - run: npm ci
       - run: npm run typecheck
       - run: npm test
@@ -42,9 +42,11 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - run: npm run test:browser
       - run: npm pack --dry-run
+      - run: npm run check:packed
+      - run: python3 scripts/check-migration.py
   publish:
     needs: verify
-    if: startsWith(github.ref, 'refs/tags/jpmc-zelle-quick-pay-v')
+    if: vars.NPM_TRUSTED_PUBLISHING_ENABLED == 'true' && startsWith(github.ref, 'refs/tags/jpmc-zelle-quick-pay-v')
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -57,7 +59,7 @@ jobs:
       - run: npm install -g npm@11.5.1
       - run: npm ci
       - run: npm run build
-      - run: node scripts/assert-release-tag.mjs --tag "${{ github.ref_name }}" --prefix jpmc-zelle-quick-pay-v --package jpmc-zelle-quick-pay/package.json
+      - run: node scripts/assert-release-tag.mjs --tag "${{ github.ref_name }}" --prefix jpmc-zelle-quick-pay-v --package package.json
         working-directory: .
-      - run: node scripts/oidc-npm-publish.mjs --cwd jpmc-zelle-quick-pay
+      - run: node scripts/oidc-npm-publish.mjs --cwd .
         working-directory: .

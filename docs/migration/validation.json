@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-29",
+  "source_commit": "4e8b11a089820b5b9fa4f409cda74ec4ac7da34c",
+  "local": {
+    "unit_tests": 66,
+    "local_database_tests_skipped": 1,
+    "typecheck": "passed",
+    "build": "passed",
+    "esm_cjs_exports": 5,
+    "packed_tarballs": 1,
+    "browser": "synthetic mobile/desktop journey passed"
+  },
+  "ci": "Check Actions on the exact standalone commit; final successful runs are recorded in the hub migration ledger.",
+  "npm_published": false,
+  "images_published": false,
+  "live_services_deployed": false,
+  "provider_calls_or_notifications": false
+}
